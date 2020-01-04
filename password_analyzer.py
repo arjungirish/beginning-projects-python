@@ -42,7 +42,7 @@ else:
 
 # new attempt
 password = input("Please enter a password to check the strength of: ")
-
+# checks if there are spaces in password
 check_space = " " in password
 
 # Counts characters in string
@@ -51,15 +51,23 @@ for a_character in password:
   character_counter += 1
   
 
-  
+# If character counter is between 3 and 10 and there are no spaces
 if character_counter > 3 and character_counter <= 10 and check_space == False:
+  # If there are only numbers in password
   if password.isnumeric():
     print("Add both uppercase and lowercase letters to make your password stronger.")
+  # If there are only uppercase letters and maybe numbers
   elif password.isupper():
     print("Add some lowercase letters to make your password stronger.")
+  # If there are only lowercase letters and maybe numbers
   elif password.islower():
     print("Add some uppercase letters to make your password stronger.")
+  # If it reaches here it means that there is a mix of upper and lower case but
+  # I don't know if it has numbers or not
   else:
+    # I didn't really know how else to write this but basically what it does is
+    # if there is a number, 1 is added to strength checker and so if strength
+    # checker is > or = 1 then it can be determined that there is a number
     strength_checker = 0
     for character in password:
       if character.isnumeric():
@@ -70,7 +78,8 @@ if character_counter > 3 and character_counter <= 10 and check_space == False:
       print("Your password is strong")
     else:
       print("Add some numbers to your password to make it stronger.")
-    
+      
+# In case the password doesn't meet the basic requirements
 else:
   print("Please make sure that your password is greater than 3 characters, less than or equal to 10 characters and has no spaces.")
     
