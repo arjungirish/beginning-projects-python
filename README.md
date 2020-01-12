@@ -9,4 +9,4 @@ Password analyzer asks the user for a password and outputs whether the password 
 
 Rock paper scissors asks the user for either rock, paper or scisssors and outputs whether the user won lost or tied against the computer. If the user tied, the game will continue until there isn't a tie.
 
-Fibonaccir sequence asks the user for a number as an input and outputs that many numbers in the fibonacci sequence.
+Fibonacci sequence asks the user for a number as an input and outputs that many numbers in the fibonacci sequence.
