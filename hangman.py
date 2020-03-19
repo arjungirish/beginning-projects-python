@@ -82,7 +82,6 @@ else:
       for a_character in user_guess:
         if a_character in word:
           the_duplicate_indexes = list_duplicate_index(word, a_character)
-          print(the_duplicate_indexes)
           number_of_duplicates = len(the_duplicate_indexes)
           print("{} is in {}'s word {} time(s)".format(a_character, creator_name, number_of_duplicates))
           for number in range(0, number_of_duplicates):
