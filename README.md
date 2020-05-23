@@ -1,5 +1,5 @@
 # Python Projects
-Has programs called "character_integer_counter", "prime_number_detector", "password_analyzer", "rock_paper_scissors", "fibonacci_sequence", "hangman", and "clustering_helpful_to_classifying" (all in python).
+Has programs called "character_integer_counter", "prime_number_detector", "password_analyzer", "rock_paper_scissors", "fibonacci_sequence", "hangman", and "clustering_helpful_to_classifying".
 
 Character integer counter asks the user to input a sentence and outputs how many characters, spaces and numbers there were in the sentence.
 
