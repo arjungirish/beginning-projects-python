@@ -1,5 +1,5 @@
-# Beginning projects python
-Has programs called character integer counter, prime number detector and password analyzer (all in python).
+# Python Projects
+Has programs called "character integer counter", "prime number detector", "password analyzer", "rock paper scissors", "fibonacci sequence", "hangman", and "working with data and independent project"(all in python).
 
 Character integer counter asks the user to input a sentence and outputs how many characters, spaces and numbers there were in the sentence.
 
@@ -12,3 +12,5 @@ Rock paper scissors asks the user for either rock, paper or scisssors and output
 Fibonacci sequence asks the user for a number as an input and outputs that many numbers in the fibonacci sequence.
 
 Hangman asks player 1 for a word and asks player 2 to guess letters that are in it. Right letters are displayed and only 5 wrong letters are allowed.
+
+Working with data and independent project
